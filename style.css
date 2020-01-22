@@ -213,7 +213,7 @@ header{
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.5);
-    transition: transform 200ms, box-shadow 200ms;
+    transition: transform 600ms, box-shadow 600ms;
     
 }
 .service-box:hover{
@@ -252,6 +252,44 @@ header{
         background-color:#e6d9b1;
         transition: 1s;
         color:#937c5d ;
-        
+}
+.offer{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.offer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 20px;
+    flex-wrap:wrap;
+    margin-right: 10px;
+}
+.offer img{
+    float: left;
+    width: 150px;
+    border-radius:100px;
+}
+.offer a{
+    font-size: 25px;
+    color:#fff;
+    /* transition: 1s; */
     
+
+}
+.offer-txt{
+    margin-left: 10px;
+}
+.offer a:hover{
+    color:#937c5d;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.offer p{
+    font-size: 15px;
+    color:#fff;
+    margin-top: 10px;
 }
