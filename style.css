@@ -254,17 +254,15 @@ header{
         color:#937c5d ;
 }
 .offer{
-    width:20%;
+    width: 30%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    margin-right: 20px;
 }
 .offer-box{
     display: flex;
     justify-content: center;
     align-items: center;
-     margin-top: 20px;
+    margin-top: 30px;
     flex-wrap:wrap;
     margin-right: 10px;
 }
