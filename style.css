@@ -210,6 +210,7 @@ header{
     align-items: center;
     border:2px solid #937c5d;
     margin-right: 20px;
+    margin-top: 30px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.5);
@@ -257,6 +258,7 @@ header{
     width: 30%;
     display: flex;
     margin-right: 20px;
+    margin-top: 30px;
 }
 .offer-box{
     display: flex;
@@ -290,4 +292,38 @@ header{
     font-size: 15px;
     color:#fff;
     margin-top: 10px;
+}
+.team-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #937c5d;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.5);
+    transition: transform 600ms, box-shadow 600ms;
+}
+.team-box:hover{
+    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.5);
+    /* transition: 1s; */
+    transform: scale(1.1);
+}
+.team-box img{
+    width: 150px;
+    border-radius: 10px;
+    
+}
+h6{
+    font-size: 50px;
+    color:#937c5d;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-top: 20px;
+}
+
+audio{
+    opacity:0.5;
 }
