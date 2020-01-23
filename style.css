@@ -397,9 +397,16 @@ audio{
 }
 .service-box{
     transition: none;
+    margin-right: 0px;
     
 }
 .service-box:hover{
+    transform: none;
+}
+.team-box{
+    transition: none;
+}
+.team-box:hover{
     transform: none;
 }
 }
